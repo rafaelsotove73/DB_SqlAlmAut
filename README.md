@@ -49,7 +49,7 @@ Un recorrido visual por los componentes clave de SI-GEFAL.
 | Creación de Artículo | API REST (Listado) | API REST (Creación) |
 | :---: | :---: | :---: |
 | *Formulario para agregar nuevos productos al sistema.* | *Endpoint GET para listar productos vía API.* | *Endpoint POST para crear productos vía API.* |
-| ![Crear Artículo](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/Creaciondearticulo.jpg) | ![API List](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticuloAPIsTest.jpg) | ![API Create](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticuloAPIsTest_01.jpg) |
+| ![Crear Artículo](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/CreaciondeArticulo.jpg) | ![API List](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticuloAPIsRest.jpg) | ![API Create](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticuloAPIsRest_01.jpg) |
 
 
 ### 3. La Base de Datos (MySQL)
