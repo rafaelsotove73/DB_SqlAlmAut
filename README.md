@@ -44,7 +44,12 @@ Un recorrido visual por los componentes clave de SI-GEFAL.
 | Página Principal | Menús de Navegación | Gestión de Artículos |
 | :---: | :---: | :---: |
 | *Bienvenida al sistema de gestión web.* | *Acceso a las diferentes secciones de la aplicación.* | *Lista paginada de artículos con opciones de CRUD.* |
-| ![Página Principal](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/PantallaInicialWareHouse.jpg) | ![Menús](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/PantallaInicialWareHouseMenu02.jpg) | ![Lista de Artículos](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticulosComprasSimple_01.jpg) |
+| ![Página Principal](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/PantallaIncialWareHouse.jpg) | ![Menús](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/PantallaIncialWareHouseMenu02.jpg) | ![Lista de Artículos](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticulosComprasSimple_01.jpg) |
+
+| Creación de Artículo | API REST (Listado) | API REST (Creación) |
+| :---: | :---: | :---: |
+| *Formulario para agregar nuevos productos al sistema.* | *Endpoint GET para listar productos vía API.* | *Endpoint POST para crear productos vía API.* |
+| ![Crear Artículo](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/CreaciondeArticulo.jpg) | ![API List](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticuloAPIsTest.jpg) | ![API Create](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticuloAPIsTest_01.jpg) |
 
 | Creación de Artículo | API REST (Listado) | API REST (Creación) |
 | :---: | :---: | :---: |
