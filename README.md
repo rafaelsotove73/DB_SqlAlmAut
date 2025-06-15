@@ -39,7 +39,7 @@ Un recorrido visual por los componentes clave de SI-GEFAL.
 | *Interfaz de inicio con estética retro.* | *Definición de las dimensiones y bots del almacén.* | *Representación gráfica de las estanterías y los bots.* |
 | ![Menú del Simulador](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SimuladorCSharpAlmacen/SimuladorAlmacen.png) | ![Entrada de Datos del Simulador](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SimuladorCSharpAlmacen/EntradasSimulador.png) | ![Imagen del Almacén](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SimuladorCSharpAlmacen/ImagenEntradaSimulador.png) |
 
-### 2. El Sistema de Gestión (Django)
+### 2. El Sistema de Gestión (Django).
 
 | Página Principal | Menús de Navegación | Gestión de Artículos |
 | :---: | :---: | :---: |
