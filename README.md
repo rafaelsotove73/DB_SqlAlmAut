@@ -1,45 +1,99 @@
-# DB_SqlAlmAut -- Base de datos de proyecto para simulacion de almacen automatizado 🚀 ☣️ 🤙 ☘️
+# SI-GEFAL: Simulación Integral de un Almacén Autónomo 🤖🏭🚀
 
-¡Claro! Aquí tienes un diseño para tu archivo README:
+Bienvenido a **SI-GEFAL** (Sistema de Gestión Física de Almacén Autónomo), un proyecto ambicioso que materializa la visión de un almacén 100% automatizado. Este repositorio no contiene solo una base de datos, sino un ecosistema completo de software que simula las operaciones, la gestión y la inteligencia detrás de un moderno centro logístico.
 
-# DB_SqlAlmAut
+## Visión del Proyecto
 
-## Descripción
-[**DB_SqlAlmAut**](https://www.bing.com/search?form=SKPBOT&q=DB_SqlAlmAut) es una base de datos diseñada para la simulación de un almacén automatizado. Actualmente, incluye la creación de esquemas y un total de 12 tablas.
+Desde siempre, la idea de un almacén que opera de forma autónoma ha sido una fascinación. Un sistema donde robots inteligentes reciben, organizan, almacenan y despachan mercancía sin intervención humana directa. Este proyecto es el primer gran paso para hacer esa visión una realidad, explorando las tecnologías necesarias y demostrando las inmensas ventajas de la automatización.
 
-## Esquemas y Tablas
+### ¿Por Qué Automatizar un Almacén?
 
-### Esquema: Buy
-•  [**Proveedores**](https://www.bing.com/search?form=SKPBOT&q=Proveedores): Información sobre los proveedores.
+La automatización de almacenes no es solo una tendencia, es una revolución logística que ofrece beneficios transformadores:
+*   **✅ Eficiencia Máxima:** Operaciones 24/7 sin fatiga ni pausas, procesando pedidos a una velocidad inalcanzable para un sistema manual.
+*   **🎯 Precisión Absoluta:** Elimina prácticamente el 100% de los errores humanos en la recolección, ubicación y conteo de inventario.
+*   **📦 Optimización del Espacio:** Los sistemas automatizados pueden operar en pasillos más estrechos y a mayores alturas, aumentando la densidad de almacenamiento hasta en un 80%.
+*   **🛡️ Seguridad Mejorada:** Reduce drásticamente los accidentes laborales al minimizar la interacción de los empleados con maquinaria pesada.
+*   **💰 Reducción de Costos:** Disminuye los costos operativos asociados a mano de obra, errores, devoluciones y daños a la mercancía.
+*   **📊 Control Total del Inventario:** Visibilidad en tiempo real de cada artículo, su ubicación exacta y su historial de movimientos.
 
-•  [**AlbaranCompraEncabezado**](https://www.bing.com/search?form=SKPBOT&q=AlbaranCompraEncabezado): Encabezado de los albaranes de compra.
+---
 
-•  [**AlbaranCompraDetalle**](https://www.bing.com/search?form=SKPBOT&q=AlbaranCompraDetalle): Detalles de los albaranes de compra.
+## 🏛️ Arquitectura del Ecosistema
 
+SI-GEFAL está compuesto por tres componentes principales que trabajan en conjunto, todos orquestados alrededor de una base de datos central.
 
-### Esquema: WareHouse
-•  [**Productos**](https://www.bing.com/search?form=SKPBOT&q=Productos): Información sobre los productos.
+1.  **El Simulador (C# Console Application):** Es el corazón visual del proyecto. Una aplicación de consola con una estética retro que simula el entorno físico del almacén, el movimiento de los bots y la distribución de las estanterías.
+2.  **El Sistema de Gestión (Django Web App & API REST):** Es el cerebro administrativo. Permite gestionar la "compra" de artículos, visualizar el inventario y, a través de su API REST, interactuar con otros sistemas.
+3.  **La Base de Datos (MySQL):** Es la memoria central. Almacena de forma persistente toda la información sobre productos, inventario, ubicaciones, bots y movimientos, asegurando la integridad de los datos entre el simulador y el sistema de gestión.
 
-•  [**Almacenes**](https://www.bing.com/search?form=SKPBOT&q=Almacenes): Información sobre los almacenes.
+---
 
-•  [**Estanterias**](https://www.bing.com/search?form=SKPBOT&q=Estanterias): Información sobre las estanterías dentro de los almacenes.
+## 📸 Galería de Pantallas
 
-•  [**Ubicaciones**](https://www.bing.com/search?form=SKPBOT&q=Ubicaciones): Información sobre las ubicaciones en las estanterías.
+Un recorrido visual por los componentes clave de SI-GEFAL.
 
-•  [**Inventario**](https://www.bing.com/search?form=SKPBOT&q=Inventario): Información sobre el inventario de productos en los almacenes.
+### 1. El Simulador de Almacén (C#)
 
-•  [**Trabajadores**](https://www.bing.com/search?form=SKPBOT&q=Trabajadores): Información sobre los trabajadores que realizan movimientos en el almacén.
+| Menú Principal | Configuración de Parámetros | Visualización del Almacén |
+| :---: | :---: | :---: |
+| *Interfaz de inicio con estética retro.* | *Definición de las dimensiones y bots del almacén.* | *Representación gráfica de las estanterías y los bots.* |
+| ![Menú del Simulador](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SimuladorCSharpAlmacen/SimuladorAlmacen.png) | ![Entrada de Datos del Simulador](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SimuladorCSharpAlmacen/EntradasSimulador.png) | ![Imagen del Almacén](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SimuladorCSharpAlmacen/ImagenEntradaSimulador.png) |
 
-•  [**TiposBot**](https://www.bing.com/search?form=SKPBOT&q=TiposBot): Información sobre los tipos de bots.
+### 2. El Sistema de Gestión (Django)
 
-•  [**Bots**](https://www.bing.com/search?form=SKPBOT&q=Bots): Información sobre los bots con serial.
+| Página Principal | Menús de Navegación | Gestión de Artículos |
+| :---: | :---: | :---: |
+| *Bienvenida al sistema de gestión web.* | *Acceso a las diferentes secciones de la aplicación.* | *Lista paginada de artículos con opciones de CRUD.* |
+| ![Página Principal](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/PantallaInicialWareHouse.jpg) | ![Menús](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/PantallaInicialWareHouseMenu02.jpg) | ![Lista de Artículos](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticulosComprasSimple_01.jpg) |
 
-•  [**TiposMovimiento**](https://www.bing.com/search?form=SKPBOT&q=TiposMovimiento): Información sobre los tipos de movimiento.
+| Creación de Artículo | API REST (Listado) | API REST (Creación) |
+| :---: | :---: | :---: |
+| *Formulario para agregar nuevos productos al sistema.* | *Endpoint GET para listar productos vía API.* | *Endpoint POST para crear productos vía API.* |
+| ![Crear Artículo](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/CreaciondeArticulo.jpg) | ![API List](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticuloAPIsTest.jpg) | ![API Create](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/SoftwareAmacen/ListaArticuloAPIsTest_01.jpg) |
 
-•  [**MovimientosAlmacen**](https://www.bing.com/search?form=SKPBOT&q=MovimientosAlmacen): Información sobre los movimientos de almacén.
+### 3. La Base de Datos (MySQL)
 
+| Diseño del Esquema | Tablas Principales |
+| :---: | :---: |
+| *Vista del esquema en MySQL Workbench.* | *Estructura de las tablas clave del sistema.* |
+| ![Diseño DB](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/MySQLAlmacen/imagenBaseDatosSQL-01.png) | ![Tablas DB](https://raw.githubusercontent.com/rafaelsotove73/DB_SqlAlmAut/main/MySQLAlmacen/Captura%20de%20pantalla%202025-06-15%20092218.png) |
 
-## Índices y Triggers
-•  [**Índices**](https://www.bing.com/search?form=SKPBOT&q=%C3%8Dndices): Se han creado índices para mejorar las consultas por fecha y producto.
+---
 
-•  [**Triggers**](https://www.bing.com/search?form=SKPBOT&q=Triggers): Se ha implementado un trigger para actualizar el total en `AlbaranCompraEncabezado` al insertar o actualizar detalles.
+## 🛠️ Stack Tecnológico
+
+*   **Simulador:**
+    *   Lenguaje: **C#**
+    *   Plataforma: **.NET Console Application**
+*   **Backend & API:**
+    *   Framework: **Django**
+    *   Framework API: **Django REST Framework**
+    *   Lenguaje: **Python**
+*   **Frontend:**
+    *   Maquetación: **HTML5**
+    *   Estilos: **Bootstrap / CSS3**
+*   **Base de Datos:**
+    *   **MySQL**
+
+---
+
+## 📂 Estructura del Repositorio
+
+*   `/MySQLAlmacen`: Contiene los scripts `.sql` para la creación del esquema y las tablas de la base de datos, además de imágenes de referencia.
+*   `/SimuladorCSharpAlmacen`: Código fuente de la aplicación de consola en C# que simula las operaciones físicas.
+*   `/SoftwareAmacen`: Código fuente del proyecto Django que conforma la aplicación web de gestión y la API REST.
+
+---
+
+## 🚀 Puesta en Marcha
+
+1.  **Base de Datos:** Ejecuta los scripts en la carpeta `/MySQLAlmacen` en tu servidor MySQL para crear la base de datos y sus tablas.
+2.  **Backend (Django):** Navega a la carpeta `/SoftwareAmacen`, instala las dependencias (`pip install -r requirements.txt`) y ejecuta el servidor. Asegúrate de configurar la conexión a la base de datos en `settings.py`.
+3.  **Simulador (C#):** Abre el proyecto en `/SimuladorCSharpAlmacen` con Visual Studio, configura la cadena de conexión a la base de datos y ejecútalo.
+
+---
+
+## 👨‍💻 Desarrolladores
+
+*   **Rafael Soto**
+*   **Dulimar Pire**
